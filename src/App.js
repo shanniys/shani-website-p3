@@ -25,7 +25,7 @@ function App() {
 
 <Navbar bg="transparent">
   <Container>
-    <Navbar.Brand href="home"className="brand-text" style={{ color: 'cyan', fontSize: '26px', textShadow: '50px'  }}>SHANI</Navbar.Brand>
+    <Navbar.Brand href="/home"className="brand-text" style={{ color: 'cyan', fontSize: '26px', textShadow: '50px'  }}>SHANI</Navbar.Brand>
           <Nav className="me-center">
               <Nav.Link as={Link} to={"/home"} className="text-decoration-none text-white">Home</Nav.Link>
               <Nav.Link as={Link} to={"/about"} className="text-decoration-none text-white">About</Nav.Link>
@@ -40,6 +40,7 @@ function App() {
   <Row>
     <Col md={12}>
     <Routes>
+      <Route path="/" element={<Home/>}/>
       <Route path="/Home" element={<Home/>}/>
       <Route path="/About" element={<About/>}/>
       <Route path="/Education" element={<Education/>}/>
