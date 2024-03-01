@@ -1,0 +1,31 @@
+.home-text-brand {
+    font-family: sans-serif;
+    text-justify: center;
+    align-self: right;
+}
+
+.greeting {
+    color: whitesmoke;
+    font-size: 48px;
+    font-family: 'Segoe UI', serif;
+    font-stretch: semi-expanded;
+    font-weight: inherit;
+}
+
+.name{
+    color: hsl(182, 100%, 51%);
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 50rem;
+    border-style: solid;
+    font-family: 'Arial', sans-serif;
+}
+
+.description{
+    color: whitesmoke;
+    text-shadow: 0cqmin;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium'sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}

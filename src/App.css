@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-background {
+  background-image: url('./images/bg2.png');
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
+  filter: blur(2px);
+  position: fixed;
+  z-index: -1;
+}

@@ -1,0 +1,35 @@
+.card-title {
+    font-weight: bold;
+    font-family: 'Helvetica', serif;
+}
+
+.card-subtitle {
+    font-weight: bold;
+    font-family: 'Helvetica', serif;
+}
+
+.card-text {
+    font-weight: normal;
+    font-family: 'Helvetica', serif;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.card-container {
+    margin-right: 30px;
+    width: max-content;
+    height: max-content;
+}
+
+.icon-container{
+    color: whitesmoke;
+}
+
+.card-title{
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
